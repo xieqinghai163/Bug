@@ -1,0 +1,9 @@
+<?php
+//--   Select * from cutstomers table.
+//--  1- Connect to the DB server
+$link = mysqli_connect("localhost", "vanier", "vanier", "bug_project");
+
+if (!$link) {
+    die("<br/> Error: occured while trying to connect to the DB " . mysqli_error($link));
+}
+?>
