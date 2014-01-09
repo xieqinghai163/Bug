@@ -22,11 +22,11 @@ if (isset($_SESSION['site_msg']) && !empty($_SESSION['site_msg'])) {
     <a href="logout.php" alt="Logout current user"> Logout</a>
 </div>
 <p> <strong> Hello, this is the admin console!</strong></p>
-<lu>
+<ul>
     <li>
         <a href="create_account.php" alt="Create Users"> Create Users</a>
     </li>
     <li>
         <a href="upload_form.php" alt="Upload file"> Upload file</a>
     </li>
-    <ul>
+</ul>
